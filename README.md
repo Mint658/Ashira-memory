@@ -3,9 +3,11 @@
 > **The memory layer for AI characters and companions.**
 > Models relationships, not just facts. Local-first. OpenAI-optional.
 
-[![status](https://img.shields.io/badge/status-alpha-orange)]()
-[![license](https://img.shields.io/badge/license-Apache--2.0-blue)]()
-[![python](https://img.shields.io/badge/python-3.10%2B-green)]()
+[![PyPI](https://img.shields.io/pypi/v/ashira-memory.svg)](https://pypi.org/project/ashira-memory/)
+[![Python](https://img.shields.io/pypi/pyversions/ashira-memory.svg)](https://pypi.org/project/ashira-memory/)
+[![License](https://img.shields.io/pypi/l/ashira-memory.svg)](https://github.com/Mint658/Ashira-memory/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/pypi/dm/ashira-memory.svg)](https://pypi.org/project/ashira-memory/)
+[![Tests](https://img.shields.io/badge/tests-15%20passing-brightgreen)](https://github.com/Mint658/Ashira-memory/tree/main/tests)
 
 ---
 
@@ -18,6 +20,10 @@ use cases. Their primitives are `User → Session → Agent`. None of them
 model a *relationship between a character and a user* as a first-class object.
 
 This one does.
+
+```bash
+pip install ashira-memory
+```
 
 ## What you get out of the box
 
