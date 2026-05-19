@@ -24,3 +24,6 @@ htmlcov/
 *.sqlite3
 .env
 .pytest_cache/
+dist/
+build/
+*.egg-info/

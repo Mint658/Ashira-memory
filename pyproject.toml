@@ -37,8 +37,9 @@ dev = [
 openai = ["openai>=1.30"]
 
 [project.urls]
-Homepage = "https://github.com/mint/ashira-memory"
-Issues = "https://github.com/mint/ashira-memory/issues"
+Homepage = "https://github.com/Mint658/Ashira-memory"
+Issues = "https://github.com/Mint658/Ashira-memory/issues"
+Repository = "https://github.com/Mint658/Ashira-memory"
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
