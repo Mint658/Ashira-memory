@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ashira-memory"
-version = "0.0.1"
+version = "0.1.0"
 description = "Relational memory for AI characters and companions. Local-first."
 readme = "README.md"
 requires-python = ">=3.10"

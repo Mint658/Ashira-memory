@@ -72,11 +72,24 @@ pip install ashira-memory          # core + Ollama
 pip install ashira-memory[openai]  # add OpenAI provider
 ```
 
-Then make sure you have Ollama running locally with:
+Then either:
 
 ```bash
+# local (default)
 ollama pull nomic-embed-text
 ollama pull llama3.2
+```
+
+or:
+
+```python
+# cloud — bring your own API key
+import os
+from ashira_memory import Memory
+from ashira_memory.providers import OpenAIProvider
+
+os.environ["OPENAI_API_KEY"] = "sk-..."
+mem = Memory("ashira", provider=OpenAIProvider())
 ```
 
 ## The mental model in 60 seconds
