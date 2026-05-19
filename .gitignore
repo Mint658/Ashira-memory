@@ -23,3 +23,4 @@ htmlcov/
 *.sqlite
 *.sqlite3
 .env
+.pytest_cache/
